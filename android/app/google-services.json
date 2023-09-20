@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "313537276990",
+    "project_id": "hulu-4a91e",
+    "storage_bucket": "hulu-4a91e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313537276990:android:25e45a4f5f551b5449756f",
+        "android_client_info": {
+          "package_name": "uz.robocode.hulu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVGl5xqH93x01e8yq1UHuaNsGIPPDZ3pI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
