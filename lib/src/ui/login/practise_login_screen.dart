@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hulu/src/ui/bottom_navigator_screen/bottom_navigator_screen.dart';
 
 import '../../utils/utils.dart';
 import '../../widgets/buttons/button_widget.dart';
@@ -76,7 +77,9 @@ class _PractiseLoginScreenState extends State<PractiseLoginScreen> {
           ),
           SizedBox(height: 30 * h,),
           ButtonWidget(ontap: (){
-            signIn;
+            Navigator.push(context, MaterialPageRoute(builder: (context){
+              return MainScreen();
+            }));
           }, text: 'Sign in',),
           SizedBox(height: 28 * h,),
           Row(
